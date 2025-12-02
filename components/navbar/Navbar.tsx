@@ -50,7 +50,8 @@ const Navbar = () => {
           </div>
           <LinkButton
             label="Book Now"
-            href={contact.addressLink}
+            href={contact.WhatsappCta}
+            rel="noreferrer"
             target="_blank"
             className="md:flex hidden text-white bg-primary border-primary"
           />
