@@ -37,13 +37,13 @@ export const footerData: FooterData = {
           href: contact.addressLink,
         },
         {
-          title: "Hindi: ",
+          title: "Call: ",
           icon: <FillCallIcon />,
           label: contact.phone[0],
           href: "tel:" + contact.phone[0],
         },
         {
-          title: "English: ",
+          title: "Call: ",
           icon: <FillCallIcon />,
           label: contact.phone[1],
           href: "tel:" + contact.phone[1],
