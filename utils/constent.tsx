@@ -1,18 +1,18 @@
 const enCodeText = encodeURIComponent("I'm looking for - Pre-booking Inquiry");
 export const contact = {
-    email:"info@manali-se.com",
-    phone:["+91 82196 27686","+91 98303 67890"],
-    address:"4th Bend, After, Duhangan Rd, Manali, Jagatsukh, Himachal Pradesh 175143",
-    addressLink:"https://maps.app.goo.gl/WEi8QDPwdwRPTpqq8",
-    socialMedia:{
-        facebook:"https://www.facebook.com/people/Manali-Se/61571937601354/",
-        instagram:"https://www.instagram.com/manali.se/",
-        linkedin:"https://www.linkedin.com/"
-    },
-    WhatsappCta:`https://wa.me/+918219627686?text=${enCodeText}`,
-    formDomain:"manali-se",
+  email: "info@manali-se.com",
+  phone: ["+91 82196 27686", "+91 98303 67890"],
+  address: "4th Bend, After, Duhangan Rd, Manali, Jagatsukh, Himachal Pradesh 175143",
+  addressLink: "https://maps.app.goo.gl/WEi8QDPwdwRPTpqq8",
+  socialMedia: {
+    facebook: "https://www.facebook.com/people/Manali-Se/61571937601354/",
+    instagram: "https://www.instagram.com/manali.se/",
+    linkedin: "https://www.linkedin.com/"
+  },
+  WhatsappCta: `https://wa.me/+918219627686?text=${enCodeText}`,
+  formDomain: "manali-se",
 }
-
+// type
 
 interface data_Type {
   name: string;
