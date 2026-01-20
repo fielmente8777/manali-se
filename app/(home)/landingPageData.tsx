@@ -25,7 +25,7 @@ export const landingPageData = {
       "Nestled among whispering pines and just 8 km from Manali Mall Road, Manali Se offers a tranquil hideaway away from the hustle and bustle. With eight beautifully designed rooms, this secluded retreat invites you to slow down, breathe, and let nature take the lead.",
       "Begin your day with crisp mountain air, the aroma of pine, and birdsong in the background. Whether you’re curling up with a book, enjoying chai on the balcony, or taking in the sweeping views, every moment here is crafted for pure relaxation.",
     ],
-    images: ["/about-1.jpg", "/about-2.jpg"],
+    images: ["/about.webp", "/about-2.jpg"],
     link: {
       label: "Book Now",
       href: contact.WhatsappCta,
@@ -193,9 +193,16 @@ export const landingPageData = {
     images: [
       "/gallery1.jpg",
       "/gallery2.jpg",
-      "/gallery3.jpg",
       "/gallery4.webp",
       "/gallery5.webp",
+      "/DSC02557.webp",
+      "/DSC02567.webp",
+      "/DSC02593.webp",
+      "/IMG_0772.webp",
+      "/IMG_04062.webp",
+      "/IMG_0787.webp",
+      "/IMG_6249.webp",
+      "/IMG_6397.webp",
     ],
     link: {
       label: "Book Now",
@@ -205,7 +212,7 @@ export const landingPageData = {
   testimonials: {
     title: "TESTIMONIALS",
     subTitle: "Hearts Touched by Manali Se",
-    image: "/about-2.jpg",
+    image: "/DJI_202504.webp",
     cards: [
       {
         name: "Fatemeh Etemadifar",
