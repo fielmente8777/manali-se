@@ -8,7 +8,6 @@ import {
   TripAdvisorRatingIcon,
   WifiIcon,
 } from "@/utils/icons";
-import { url } from "inspector";
 
 export const landingPageData = {
   bannerData: {
