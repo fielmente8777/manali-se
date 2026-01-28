@@ -1,7 +1,7 @@
 const enCodeText = encodeURIComponent("I'm looking for - Pre-booking Inquiry");
 export const contact = {
   email: "info@manali-se.com",
-  phone: ["+91 82196 27686", "+91 98303 67890"],
+  phone: ["+91 82196 27686", "+91 98303 67890", "+91 95990 91712"],
   address: "4th Bend, After, Duhangan Rd, Manali, Jagatsukh, Himachal Pradesh 175143",
   addressLink: "https://maps.app.goo.gl/WEi8QDPwdwRPTpqq8",
   socialMedia: {
@@ -9,7 +9,7 @@ export const contact = {
     instagram: "https://www.instagram.com/manali.se/",
     linkedin: "https://www.linkedin.com/"
   },
-  WhatsappCta: `https://wa.me/+918219627686?text=${enCodeText}`,
+  WhatsappCta: `https://wa.me/+919830367890?text=${enCodeText}`,
   formDomain: "manali-se",
 }
 // type
