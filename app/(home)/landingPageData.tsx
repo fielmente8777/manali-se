@@ -17,6 +17,15 @@ export const landingPageData = {
     videoSrc:
       "https://eazotel-clients-images.s3.ap-south-1.amazonaws.com/Manali-Se/IMG_7663.mp4",
   },
+  offerData: {
+    title: "EXCLUSIVELY FOR FAMILIES AND GROUPS",
+    description:
+      "Exclusively for families and groups enjoy a complimentary riverside lunch, cozy bonfire under the stars, and guided forest walks. Limited group slots available. Book your private riverside getaway now and make it truly unforgettable.",
+    link: {
+      label: "Book Now",
+      url: contact.WhatsappCta,
+    },
+  },
   aboutData: {
     title: "WELCOME TO MANALI SE",
     subTitle: "A Serene Escape In The Heart Of Manali",
@@ -131,7 +140,7 @@ export const landingPageData = {
         ],
       },
       {
-        images: [  
+        images: [
           "/Deluxe-Executive-Rooms/Copy-of-IMG_0781.webp",
           "/Deluxe-Executive-Rooms/Copy-of-IMG_0782.webp",
           "/Deluxe-Executive-Rooms/Copy-of-IMG_0779.webp",
@@ -159,9 +168,7 @@ export const landingPageData = {
         ],
       },
       {
-        images: [
-          "/Deluxe-Executive-Rooms/Copy-of-IMG_0778-1.webp",
-        ],
+        images: ["/Deluxe-Executive-Rooms/Copy-of-IMG_0778-1.webp"],
         title: "Deluxe Room",
         description:
           "The Deluxe Room at Manali Se provides easy ground-floor access with spacious, cozy interiors and pine-facing views, making it ideal for seniors, families, or anyone seeking comfort and convenience.",

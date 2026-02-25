@@ -35,7 +35,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({
             rel="noreferrer"
             href={link.href}
             label={link.label}
-            className="text-white bg-secondary text-nowrap md:mx-auto"
+            className="text-white bg-primary text-nowrap md:mx-auto"
           />
         </div>
         <div className="relative about-bg w-full aspect-[4/3.6]">

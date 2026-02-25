@@ -24,7 +24,7 @@ const CafeAndRestaurants: React.FC<CafeAndRestaurantsProps> = ({
           <LinkButton
             href={link.url}
             label={link.label}
-            className="text-white bg-secondary text-nowrap mx-auto"
+            className="text-white bg-primary text-nowrap mx-auto"
           />
           {/* <OnlyButton
           label={link.label}

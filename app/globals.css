@@ -17,7 +17,7 @@
 }
 
 body {
-  font: var(--font-barlow), sans-serif;
+  font: var(--font-barlow);
 }
 
 .font-gilda {

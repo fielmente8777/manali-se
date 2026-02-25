@@ -76,8 +76,8 @@ export default function RootLayout({
         <WebProvider>
           {children}
           <Footer />
-          <Whatsapp whatsAppNumber={contact.phone[2]} />
-          <Call callNumber={contact.phone[1]} />
+          <Whatsapp whatsAppNumber={contact.phone[1]} />
+          <Call callNumber={contact.phone[2]} />
         </WebProvider>
         <Script id="chatbot-config" strategy="afterInteractive">
           {`

@@ -129,7 +129,7 @@ const Footer = () => {
             <span className="md:block hidden">|</span>
             <p className="">All Rights Reserved</p>
             <span className="md:block hidden">|</span>
-            <p className="">Powered by Eazotel</p>
+            <p className="">Powered by <Link href="https://fielmente.com" target="_blank">Fielmente</Link></p>
           </div>
         </Container>
       </div>

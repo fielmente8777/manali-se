@@ -8,6 +8,7 @@ import {
 import TestimonialsSection from "@/components/sectionComponants/TestimonialsSection";
 import OnlinePlatforms from "./components/OnlinePlatforms";
 import Form1 from "@/components/forms/Form1";
+import OfferCard from "./components/OfferCard";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <OfferCard {...landingPageData.offerData} />
       <AboutSection {...landingPageData.aboutData} />
       <OnlinePlatforms {...landingPageData.onlinePartnersData} />
       <Rooms {...landingPageData.roomAndSuitesData} />
