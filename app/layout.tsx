@@ -8,6 +8,7 @@ import Script from "next/script";
 import Whatsapp from "@/components/ContactButton/WhatsApp";
 import { contact } from "@/utils/constent";
 import Call from "@/components/ContactButton/Call";
+import OfferPopup from "@/components/pop-up/OfferPopup";
 
 const gildaDisplay = Gilda_Display({
   variable: "--font-gilda-display",
@@ -78,6 +79,7 @@ export default function RootLayout({
           <Footer />
           <Whatsapp whatsAppNumber={contact.phone[1]} />
           <Call callNumber={contact.phone[2]} />
+          <OfferPopup />
         </WebProvider>
         <Script id="chatbot-config" strategy="afterInteractive">
           {`
