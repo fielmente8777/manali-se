@@ -18,9 +18,27 @@ export const landingPageData = {
       "https://eazotel-clients-images.s3.ap-south-1.amazonaws.com/Manali-Se/IMG_7663.mp4",
   },
   offerData: {
-    title: "EXCLUSIVELY FOR FAMILIES AND GROUPS",
-    description:
-      "Exclusively for families and groups enjoy a complimentary riverside lunch, cozy bonfire under the stars, and guided forest walks. Limited group slots available. Book your private riverside getaway now and make it truly unforgettable.",
+    src:"/bg.webp",
+    title: "EXCLUSIVELY FOR FAMILIES & GROUPS BOOKINGS",
+    description:[
+      "Enjoy a complimentary riverside lunch",
+      "Cozy bonfire under the stars",
+      "Guided forest walks",
+    ],
+    images:[
+      {
+        src:"/offers/offer1.png",
+        alt:"Complimentary Riverside Breakfast"
+      },
+      {
+        src:"/offers/offer2.png",
+        alt:"Cozy Bonfire under the Stars"
+      },
+      {
+        src:"/offers/offer3.png",
+        alt:"Guided Forest Walks"
+      }
+    ],
     link: {
       label: "Book Now",
       url: contact.WhatsappCta,
