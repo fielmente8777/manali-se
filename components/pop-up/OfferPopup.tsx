@@ -14,11 +14,11 @@ const OfferPopup = () => {
   // const text = `limited time discount upto 20% off this ${currentMonth}.`;
   const text = `Grab Upto 10% Discount On Instant Bookings`;
 
-  // Auto-close panel after 5 seconds (show tab only)
+  // Auto-close panel after 10 seconds (show tab only)
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsOpen(false);
-    }, 5000);
+    }, 10000); // 10 seconds
 
     return () => clearTimeout(timer);
   }, []);
