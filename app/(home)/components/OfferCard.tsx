@@ -15,14 +15,12 @@ interface OfferCardProps {
 
 const OfferCard: React.FC<OfferCardProps> = ({
   title,
-  description,
   link,
-  src,
   images,
 }) => {
   return (
     <SectionWithContainer sectionClassName="bg-[#FFFBED]">
-      <div className="flex flex-col gap-8 text-center">
+      <div className="flex flex-col gap-8 md:gap-12 text-center">
         <h2 className="text-[1.75rem] md:text-5xl font-semibold text-secondary font-gilda">
           {title}
         </h2>
